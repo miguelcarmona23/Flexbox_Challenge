@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url("https://i.pinimg.com/originals/7d/a6/96/7da696f1987d39249d42946f331ccc1b.jpg");
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1,
+h1 a {
+  font-size: calc(16pt + 1.07vw);
+  color: #212121;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.2em;
+  margin: 10px 0 10px;
+  text-transform: none;
+  text-align: left;
+}
+
+h2,
+h2 a {
+  font-size: calc(14pt + 0.88vw);
+  color: #fbda02;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.1em;
+  margin: 10px 0;
+  text-transform: none;
+}
+
+h3,
+h3 a {
+  font-size: calc(16pt + 0.75vw);
+  color: #fbda02;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  line-height: 1.1em;
+  margin: 10px 0;
+  text-transform: none;
+}
+
+.inner {
+  width: 100%;
+  max-width: 1478px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 2%;
+  margin: 0 auto;
+}
+
+.simpsons-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.simpsons-wrapper .simpsons-member {
+  width: 30.4%;
+  margin: 0 2% 60px 0;
+  max-width: inherit;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.simpsons-wrapper .simpsons-member .simpsons-image {
+  line-height: 0em;
+  height: 500px !important;
+}
+
+.simpsons-wrapper .simpsons-member .simpsons-bio {
+  top: inherit;
+}
+
+.simpsons-wrapper .simpsons-member .simpsons-name {
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: calc(15pt + 0.2vw);
+  margin-top: 7px;
+}
+
+.simpsons-wrapper .simpsons-member .simpsons-title {
+  color: #fbda02;
+  font-family: "montserrat";
+  font-weight: 600;
+  font-size: calc(11pt + 0.05vw);
+  margin: 5px 0px 5px 0px;
+}
+
+.simpsons-wrapper .simpsons-wrapper .simpsons-member:nth-of-type(5n + 5) {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 1400px) {
+  .simpsons-wrapper .simpsons-member:nth-of-type(5n + 5) {
+    margin-right: 2%;
+  }
+  .simpsons-wrapper .simpsons-member {
+    margin: 0 2% 60px 0;
+    padding: 0;
+    text-align: center;
+  }
+  .simpsons-wrapper .simpsons-member:nth-of-type(4n + 4) {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .simpsons-wrapper .simpsons-member {
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .simpsons-wrapper .simpsons-member {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
